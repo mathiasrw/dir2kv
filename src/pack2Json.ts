@@ -41,5 +41,5 @@ export default async function pack2Json(
 
 	console.log(bulk);
 
-	Deno.writeTextFileSync(outputFile, JSON.stringify(bulk,null,2));
+	Deno.writeTextFileSync(outputFile, JSON.stringify(bulk, null, 2));
 }
